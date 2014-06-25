@@ -33,3 +33,14 @@
 ### Run (installed)
 
     % hello
+
+## Cross Compiling (for Windows using MinGW-w64)
+
+### Configure
+
+    % ./configure --host=i686-w64-mingw32
+
+### Build
+
+    % make clean
+    % make
